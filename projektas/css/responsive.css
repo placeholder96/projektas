@@ -1,0 +1,137 @@
+@media only screen and (max-width: 600px) {
+/*Header*/	
+
+	
+/*--Mission---*/
+.mission p{position: absolute;/*Team*/
+  bottom: 8px;
+  right: 16px;
+margin-bottom:55px }
+
+/*----Team----*/
+ .team-member{
+padding-right:30px; 	
+ }	
+	
+	.btn {
+align-items: center;
+margin-top:107px;
+margin-bottom:0px; 
+margin-left:350px;
+margin-right: 450px;	
+}
+
+.btn { position: absolute;
+left: 25%;
+margin-left: -38px;
+bottom:0px;
+margin-bottom:63px; 
+
+border:white solid 1px; 	
+width:180px;
+min-height:40px ;
+display: flex;
+align-items:center;	
+border-radius:25px;
+position: relative;	
+}
+/*Map-----*/
+
+.map img{max-width: 100%;position: static
+min-height:320px;}
+
+/*Form-----*/
+
+.form {padding:1px 0;
+background-color:#0ebfdd; align-items: center;}
+
+
+.form p{text-align: center;
+color: white;
+font-size:40px;}
+
+.form  input{padding:5px;
+display:;
+margin:10px}
+
+input[type="text"] {width:300px;
+max-width:750px;border:5px solid; 
+border-color:#73767a;  	
+}
+
+input[type="email"] {width:300px;
+max-width:100%;border:5px solid; 
+border-color:#73767a;
+	
+}
+
+textarea {margin:0px; 
+resize:none;
+border:5px solid; 
+border-color:#73767a;	
+}
+
+button[type="submit"]{border-radius:32px;
+border-color:#73767a;
+border:2px solid;
+	
+}
+
+/*-------Footer-----*/
+
+footer{background-color:#45494d;padding:34px 0 ;
+font-size:1.741654571843251vh;height:120px; 
+
+}
+.footer-top{display: flex}
+
+footer a{max-width:250px;
+display: flex;
+text-decoration: none;
+padding-right:33px;
+color:#d7dee4;
+}
+footer li{
+list-style: none;	
+}
+
+
+.soc{
+margin:-30px;
+align-content: center;
+
+}
+
+	/*Footer bottom*/
+.footer-bottom{
+color:#73767a;margin-left:auto;
+padding:16px ;margin-left:auto;
+}
+
+
+
+.q{margin-right:14px 0; }
+
+/*Font Awesome icons */
+
+i {						
+  border-radius: 50%;
+  border: solid #c7ced3;
+  padding:0px;
+  width:16px;
+  height: 16px;
+  text-align:center
+}
+
+
+
+.line{
+max-width:940px; 
+height:1px;
+
+background:#5a5e62;
+
+border-bottom:1px  #313030;
+
+}
+}

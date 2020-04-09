@@ -1,0 +1,247 @@
+*,
+*::before
+*::after{
+box-sizing:border-box;
+}
+
+html{
+	font-family:sans-serif;
+	font-size:20px; 
+}
+
+
+/*---------------Header------------------*/
+html, body{
+    width:100%;
+    height:100%
+	margin:0px;
+	padding:0px;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+.main-header{
+color:#82868f;
+background-color:#f7fdfe;
+position:fixed;
+width:100%;
+display:block;
+}
+
+.main-header .container{
+	justify-content: space-between;
+	align-items:center;
+}
+
+body{
+	margin:0;
+}
+
+
+.container{
+	max-width:960px;
+	margin:0 auto;
+	padding-left:10px;
+	padding-right:10px;
+	 
+}
+
+.container h1 p{
+	font-size:1.25rem;
+	letter-spacing:0;
+}
+
+.container-flex{
+	display:flex;
+}
+
+.main-nav{margin-bottom:34px 0;}
+.main-nav li{
+	list-style:none; 
+	margin-top:38px;margin-bottom:37px; 
+}
+
+.main-nav a{
+	color:#82868f;
+	text-decoration: none;
+	font-size:0.875rem;
+	padding:10px 17px;
+}
+
+.signin a{
+	color:white;
+	padding:16px 37px;
+	background-color:#0ebfdd;
+	border-radius: 25px;
+	
+		
+}
+
+
+
+.logo{padding-right:250px;	padding-top:28px 0;
+font-size:1.75rem;}
+/*Header END---------------------------------------------------*/
+/*Mission-----------------------------------------------------*/
+.kalnai img{
+position: static;
+text-align: center; 
+color:white;
+}
+
+.mission .container{position: relative;
+text-align: center;
+color: white;}
+
+.mission h1{position: absolute;
+ margin-bottom:124px; 
+bottom:50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+font-size: 44px;
+}
+.mission p{position: absolute;
+  bottom: 8px;
+  right: 16px;
+margin-bottom:89px }
+
+.hero{text-align: center;}
+.hero{
+	font-size:20px; 
+}
+
+
+
+}
+.hero .container p{
+	text-align: center;
+}
+/*About----------------------------*/
+.about{width:100%; }
+
+.about h1{color:#30c4df;
+text-align: center;	
+font-size: 44px;
+padding-top:80px; }
+
+.about p{color:#45494d;
+font-size:20px;
+padding-bottom:76px;
+text-align:center;}
+
+/*Team--------------------------------*/
+.team {background-color:#0ebfdd;color:#ffffff; 
+align-content:center;
+min-height:600px; 
+
+	
+}
+.team .container{max-width:100%;}
+
+.team h1{padding-top:74px; 
+ font-size:44px;
+text-align: center;
+}
+
+.team-member img{max-width:100%;
+
+}
+
+ .team-member{
+padding-right:80px; 	
+ }
+
+
+.btn {
+align-items: center;
+margin-top:107px;
+margin-bottom:0px; 
+margin-left:350px;
+margin-right: 450px;	
+}
+
+.btn { position: absolute;
+    left: 45%;
+    margin-left: -38px;
+    bottom:0px;
+	margin-bottom:63px; 
+
+border:white solid 1px; 	
+width:180px;
+min-height:40px ;
+display: flex;
+align-items:center;	
+border-radius:25px;
+position: relative;	
+}
+
+.btn a{color:white;
+text-decoration: none;
+margin-left:30px; }
+
+.box {max-width:auto;
+margin-top:20px; 
+align-content: center;
+text-align: center;
+}
+
+
+	/*---- Map ----*/
+.map img{max-width: 100%;position: static;
+	height:auto;}
+
+	/*---- Footer---- */
+footer{background-color:#45494d;padding:34px 0 ;
+font-size:1.741654571843251vh;height:120px; 
+
+}
+.footer-top{display: flex}
+
+footer a{max-width:250px;
+display: flex;
+text-decoration: none;
+padding-right:33px;
+color:#d7dee4;
+}
+footer li{
+list-style: none;	
+}
+
+
+.soc{display: block;
+margin-bottom: 10px;
+margin-left:340px;
+}
+
+	/*Footer bottom*/
+.footer-bottom{
+color:#73767a;margin-left:50px;
+padding:16px ;margin-left:365px  	
+}
+.footer-bottom li{ }
+
+.footer-bottom li{margin-right:29px;}
+.q{margin-right:14px 0; }
+
+/*Font Awesome icons */
+
+i {						
+  border-radius: 50%;
+  border: solid #c7ced3;
+  padding: 10px;
+  width:16px;
+  height: 16px;
+  text-align:center
+}
+
+
+
+.line{
+max-width:940px; 
+height:1px;
+
+background:#5a5e62;
+
+border-bottom:1px  #313030;
+
+}
+
